@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+}
+
+
+.outlet-container {
+  flex: 1; 
+  display: flex; 
+  flex-direction: column; 
+  background-color: #f9f9f9; 
+}
+
+/* Additional styles for Navbar, Footer, and other elements */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

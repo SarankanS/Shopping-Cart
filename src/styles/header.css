@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    border: 5px solid black ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+
+.middle-h ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.middle-h a {
+    text-decoration: none; 
+    color: black; 
+    font-weight: bold;
+}
+
+.right-h{
+    display: flex;
+    gap: 1rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
